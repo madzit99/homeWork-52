@@ -11,8 +11,8 @@ class CardDeck {
             for (const rank of this.ranks) {
                 const card = new Card(rank, suit);
                 this.cards.push(card);
-            }
-        }
+            };
+        };
     };
 
     getCard() {
@@ -28,7 +28,7 @@ class CardDeck {
             cards.push(this.getCard());
         };
         return cards; 
-    }
-}
+    };
+};
 
 export default CardDeck;
